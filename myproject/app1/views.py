@@ -8,4 +8,4 @@ def index (request):
     name =  User.objects.get(name='swswsw')
     you = Employee.objects.filter(user=name)
     
-    return render (request,'inx.html',{'you':you})
+    return render (request,'inddddddx.html',{'you':you})
